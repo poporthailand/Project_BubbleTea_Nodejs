@@ -10,6 +10,7 @@ var blogRouter = require('./routes/blog');
 var make_OrderRouter = require('./routes/make_Order');
 var check_StockRouter = require('./routes/check_Stock');
 var history_SaleRouter = require('./routes/history_Sale');
+var testRouter = require('./routes/index');
 
 var app = express();
 
@@ -29,6 +30,8 @@ app.use('/blog', blogRouter);
 app.use('/make_Order', make_OrderRouter);
 app.use('/check_Stock', check_StockRouter);
 app.use('/history_Sale', history_SaleRouter);
+app.use('/test', testRouter);
+
 app.use( express.static( "public" ) );
 
 // catch 404 and forward to error handler
