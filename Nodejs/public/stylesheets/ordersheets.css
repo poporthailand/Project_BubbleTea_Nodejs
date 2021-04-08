@@ -19,11 +19,13 @@
     background-color:bisque;
     width: 50%;
     height: 100%;
+    float: left;
 }
 .rightheader {
     background-color:darkgray;
     width: 50%;
     height: 100%;
+    float: left;
 }
 .leftbody {
     background-color:skyblue;
@@ -51,4 +53,12 @@
     color: rgb(255, 255, 255);
     background-color: #F79B8F;
 
+}
+
+.headerbutton {
+    color:aliceblue;
+    padding: 20px 30px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 1px solid #000;
 }
