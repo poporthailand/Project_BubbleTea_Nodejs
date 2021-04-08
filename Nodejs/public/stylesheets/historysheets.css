@@ -1,5 +1,5 @@
 .container {
-  background-color: #faa9ba;
+  background-color: #81f2fd;
   width: 100%;
   height: 969px;
   margin: 0;
@@ -11,7 +11,7 @@
 }
 .Body {
   width: 100%;
-  height: 819px;
+  height: 799px;
 }
 .leftheader {
   width: 50%;
@@ -23,16 +23,7 @@
   height: 100%;
   float: left;
 }
-.leftbody {
-  width: 50%;
-  height: 100%;
-  float: left;
-}
-.rightbody {
-  width: 50%;
-  height: 100%;
-  float: left;
-}
+
 .blockheader {
   margin-left: 3%;
   margin-top: 0px;
@@ -43,11 +34,11 @@
   width: 90%;
   height: 70%;
   color: rgb(255, 255, 255);
-  background-color: #f79b8f;
+  background-color: #58e0fd;
 }
 
 .headerbutton {
-  color: aliceblue;
+  color: #111;
   padding: 20px 30px;
   font-size: 25px;
   border-radius: 15px;
