@@ -4,34 +4,34 @@
     height: 900px;
   }
   .header {
-    background-color: aquamarine;
+    background-color: rgb(204, 207, 206);
     width: 100%;
     height: 150px;
   }
   .Body {
     background-color: gray;
     width: 100%;
-    height: 600px;
+    height: 719px;
   }
   .footer {
-    background-color: yellowgreen;
+    background-color: rgb(121, 122, 118);
     width: 100%;
     height: 100px;
   }
   .bodyleft {
-    background-color: teal;
+    
     width: 33.3%;
     height: 100%;
     float: left
   }
   .bodyright {
-    background-color: darkgoldenrod;
+    
     width: 33.4%;
     height: 100%;
     float: left
   }
   .bodycenter {
-    background-color: blueviolet;
+    
     width: 33.3%;
     height: 100%;
     float: left
