@@ -5,8 +5,8 @@ var path = require('path');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  //res.render('index', { title: 'Express' });
-  res.sendFile(path.join(__dirname,'html','index.html'));
+  res.render('index.html');
+  //res.sendFile(path.join(__dirname,'html','index.html'));
 });
 router.get('/test', function(req, res, next) {
   res.render('test', { title: 'Express' });

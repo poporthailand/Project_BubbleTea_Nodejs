@@ -4,8 +4,8 @@ var path = require('path');
 
 /* GET users listing. */
 router.get('/', function (req, res, next) {
-    //res.render("make_Order")
-    res.sendFile(path.join(__dirname,'html','make_Order.html'));
+    res.render("make_Order.html")
+    //res.sendFile(path.join(__dirname,'html','make_Order.html'));
 });
 
 
