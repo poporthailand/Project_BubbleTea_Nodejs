@@ -6,11 +6,12 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var blogRouter = require('./routes/blog');
 var make_OrderRouter = require('./routes/make_Order');
 var check_StockRouter = require('./routes/check_Stock');
 var history_SaleRouter = require('./routes/history_Sale');
 var testRouter = require('./routes/index');
+
+
 
 var app = express();
 
@@ -28,7 +29,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/blog', blogRouter);
+
 app.use('/make_Order', make_OrderRouter);
 app.use('/check_Stock', check_StockRouter);
 app.use('/history_Sale', history_SaleRouter);
